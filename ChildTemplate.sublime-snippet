@@ -1,0 +1,20 @@
+<snippet>
+	<description>Render Child Template</description>
+	<content><![CDATA[@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+@{
+    Layout = "${1:_Layout}.cshtml";
+}
+ 
+@*this content will be rendered in the named section head*@
+@section head{
+  <script type="text/javascript">
+     alert("Iz in yo head");
+   </script>
+}
+ 
+@*The following content will be caught by the RenderBody() tag in the parent template*@
+<h1>@Model.Content.Name</h1>
+@Html.Raw(Model.Content.GetPropertyValue("bodyText"))]]></content>
+	<tabTrigger>umbChildTemp</tabTrigger>
+	<scope>-source</scope>
+</snippet>

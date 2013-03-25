@@ -1,0 +1,16 @@
+<snippet>
+	<description>Render Default Template</description>
+	<content><![CDATA[@inherits Umbraco.Web.Mvc.UmbracoTemplatePage
+<!DOCTYPE html>
+<html>
+<head>
+         <title>@Model.Content.Name</title>
+        @RenderSection("${1:head}",false)
+      </head>
+<body>
+   @RenderBody()
+</body>
+</html>]]></content>
+	<tabTrigger>umbTemp</tabTrigger>
+	<scope>-source</scope>
+</snippet>

@@ -1,0 +1,6 @@
+<snippet>
+	<description>Render Umbraco Macro</description>
+	<content><![CDATA[@Umbraco.RenderMacro("${1:myMacroAlias}", ${2:new { name = "Ned", age = 28 }})]]></content>
+	<tabTrigger>umbMac</tabTrigger>
+	<scope>-source</scope>
+</snippet>

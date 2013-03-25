@@ -1,0 +1,20 @@
+{
+	"schema_version": "1.2",
+	"packages": [
+		{
+			"name": "Sublime Umbraco Razor Templates",
+			"description": "Snippets to use when creating Umbraco Razor Tempaltes",
+			"author": "rpjengaard",
+			"homepage": "https://github.com/rpjengaard/umbracoMvcSublime",
+			"last_modified": "2013-03-25 21:24:31",
+			"platforms": {
+				"osx": [
+					{
+						"version": "1.1.0",
+						"url": "https://nodeload.github.com/rpjengaard/umbracoMvcSublime/zip/master"
+					}
+				]
+			}
+		}
+	]
+}
