@@ -11,6 +11,6 @@
    @RenderBody()
 </body>
 </html>]]></content>
-	<tabTrigger>umbTemp</tabTrigger>
+	<tabTrigger>uRenderDefaultTemplate</tabTrigger>
 	<scope>-source</scope>
 </snippet>

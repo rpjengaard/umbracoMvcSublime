@@ -1,6 +1,6 @@
 <snippet>
 	<description>Render Section</description>
 	<content><![CDATA[@RenderSection("${1:Section name}")]]></content>
-	<tabTrigger>umbSec</tabTrigger>
+	<tabTrigger>uRenderSection</tabTrigger>
 	<scope>-source</scope>
 </snippet>

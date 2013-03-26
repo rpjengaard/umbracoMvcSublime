@@ -1,6 +1,6 @@
 <snippet>
 	<description>Render Partial View</description>
 	<content><![CDATA[@Html.Partial("${1:Navigation}")]]></content>
-	<tabTrigger>umbPW</tabTrigger>
+	<tabTrigger>uRenderPartialView</tabTrigger>
 	<scope>-source</scope>
 </snippet>
